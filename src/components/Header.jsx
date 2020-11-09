@@ -3,7 +3,13 @@ import React from 'react';
 
 class Header extends React.Component {
   render() {
-    return <h1>Hello Project</h1>;
+    return (
+      <div>
+        <header>
+          <h1>Movie Cards Library</h1>
+        </header>
+      </div>
+    );
   }
 }
 

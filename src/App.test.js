@@ -38,7 +38,7 @@ describe('<Header /> component', () => {
     shallow(<Header />);
   });
 
-  it.skip('it includes the text `Movie Cards Library` inside a h1 tag', () => {
+  it('it includes the text `Movie Cards Library` inside a h1 tag', () => {
     wrapper = shallow(<Header />);
 
     expect(wrapper.find('header h1').text()).toBe('Movie Cards Library');
