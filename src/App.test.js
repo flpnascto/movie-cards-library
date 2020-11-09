@@ -34,7 +34,7 @@ const movies = [
 ];
 
 describe('<Header /> component', () => {
-  it.skip('renders without crashing', () => {
+  it('renders without crashing', () => {
     shallow(<Header />);
   });
 
