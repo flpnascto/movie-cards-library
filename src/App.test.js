@@ -50,7 +50,7 @@ describe('<MovieList /> component', () => {
     shallow(<MovieList movies={movies} />);
   });
 
-  it.skip('renders a `MovieCard` component for each object in the array', () => {
+  it('renders a `MovieCard` component for each object in the array', () => {
     wrapper = shallow(<MovieList movies={movies} />);
 
     expect(wrapper.find(MovieCard).length).toEqual(3);
