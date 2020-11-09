@@ -113,7 +113,7 @@ describe('<MovieCard /> component', () => {
 });
 
 describe('<Rating /> component', () => {
-  it.skip('renders without crashing', () => {
+  it('renders without crashing', () => {
     shallow(<Rating />);
   });
 
