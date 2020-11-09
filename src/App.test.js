@@ -79,7 +79,7 @@ describe('<MovieCard /> component', () => {
     expect(wrapper.find('img').prop('src')).toEqual('images/movie_1');
   });
 
-  it.skip('renders the movie title inside an `h4` tag', () => {
+  it('renders the movie title inside an `h4` tag', () => {
     wrapper = shallow(<MovieCard movie={movie} />);
 
     expect(wrapper.find('h4').text()).toBe('Movie Title 1');
