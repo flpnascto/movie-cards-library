@@ -56,7 +56,7 @@ describe('<MovieList /> component', () => {
     expect(wrapper.find(MovieCard).length).toEqual(3);
   });
 
-  it.skip('sets the movie title as the key in each rendered `MovieCard`', () => {
+  it('sets the movie title as the key in each rendered `MovieCard`', () => {
     wrapper = mount(<MovieList movies={movies} />);
     const movieCards = wrapper.find(MovieCard);
 
