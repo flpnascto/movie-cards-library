@@ -46,7 +46,7 @@ describe('<Header /> component', () => {
 });
 
 describe('<MovieList /> component', () => {
-  it.skip('renders without crashing', () => {
+  it('renders without crashing', () => {
     shallow(<MovieList movies={movies} />);
   });
 
