@@ -69,7 +69,7 @@ describe('<MovieList /> component', () => {
 describe('<MovieCard /> component', () => {
   const movie = movies[0];
 
-  it.skip('renders without crashing', () => {
+  it('renders without crashing', () => {
     shallow(<MovieCard movie={movie} />);
   });
 
