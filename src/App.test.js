@@ -92,7 +92,7 @@ describe('<MovieCard /> component', () => {
   });
 
 
-  it.skip('renders the movie storyline inside a `p` tag', () => {
+  it('renders the movie storyline inside a `p` tag', () => {
     wrapper = shallow(<MovieCard movie={movie} />);
 
     expect(wrapper.find('p').text()).toBe('Movie Storyline 1');
